@@ -13,7 +13,7 @@ export default defineConfig({
       algorithm: "brotliCompress",
     }),
   ],
-  base: "/solstice-rain-floof/",
+  base: "/briefings-floof/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
