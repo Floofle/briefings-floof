@@ -13,7 +13,7 @@ export default defineConfig({
       algorithm: "brotliCompress",
     }),
   ],
-  base: "./",
+  base: "/<REPO>/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
